@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-purple-900 to-black text-white">
       <Head>
-        <title>Spooky Candy Quest - Halloween Adventure Game</title>
+        <title>Spooky Candy</title>
         <meta name="description" content="Embark on a spooky candy collecting adventure this Halloween! Download now on the App Store." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -16,7 +16,7 @@ export default function Home() {
           <div className="flex items-center space-x-2">
             <FaCandyCane className="text-pink-500 text-3xl" />
             <span className="text-2xl font-bold bg-gradient-to-r from-pink-500 to-orange-500 bg-clip-text text-transparent">
-              Spooky Candy Quest
+              TreatMap
             </span>
           </div>
           <a 
@@ -33,11 +33,12 @@ export default function Home() {
 
       <main className="container mx-auto px-6 py-12">
         <section className="text-center mb-20">
+          <h3>Your Halloween Candy Guide!</h3>
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-pink-500 to-orange-500 bg-clip-text text-transparent">
-            Collect. Survive. Conquer.
+Welcome to TreatMap 
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-            Embark on a spooky adventure through haunted neighborhoods, collecting candy and avoiding ghosts in this exciting Halloween game!
+            Tired of wandering around not knowing which houses give out the good candy?
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <a 
@@ -51,8 +52,9 @@ export default function Home() {
             </a>
           </div>
         </section>
-
-        <section className="grid md:grid-cols-3 gap-8 mb-20">
+<h2 className= 'text-center mb-20 text-5xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-pink-500 to-orange-500 bg-clip-text text-transparent' >With TreatMap, you can:</h2>  
+        <section className="grid md:grid-cols-4 gap-8 mb-20">
+          
           {[
             {
               icon: <FaGamepad className="text-4xl text-pink-500" />,
@@ -65,6 +67,11 @@ export default function Home() {
               description: "Unlock special candies with unique abilities to help you on your quest!"
             },
             {
+              icon: <FaGhost className="text-4xl text-purple-400" />,
+              title: "Spooky Challenges",
+              description: "Face different ghosts and obstacles as you progress through the game!"
+            },
+             {
               icon: <FaGhost className="text-4xl text-purple-400" />,
               title: "Spooky Challenges",
               description: "Face different ghosts and obstacles as you progress through the game!"
