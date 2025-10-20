@@ -58,24 +58,52 @@ Welcome to TreatMap
           {[
             {
               icon: <FaGamepad className="text-4xl text-pink-500" />,
-              title: "Addictive Gameplay",
-              description: "Simple to learn, challenging to master. Collect candies while avoiding spooky obstacles!"
+              title: "Mark your home",
+              description: "as a candy stop — full-size bars, mini treats, chips, or other goodies."
             },
             {
               icon: <FaCandyCane className="text-4xl text-orange-400" />,
-              title: "Power-ups & Boosters",
-              description: "Unlock special candies with unique abilities to help you on your quest!"
+              title: "Explore the map",
+              description: "find houses near you that are giving out the best treats"
             },
             {
               icon: <FaGhost className="text-4xl text-purple-400" />,
-              title: "Spooky Challenges",
-              description: "Face different ghosts and obstacles as you progress through the game!"
+              title: "Halloween routes",
+              description: "your experience so other trick-or-treaters know what to expect."
             },
              {
               icon: <FaGhost className="text-4xl text-purple-400" />,
               title: "Spooky Challenges",
-              description: "Face different ghosts and obstacles as you progress through the game!"
+              description: "Build a fun and safe Halloween route for you and your friends."
             }
+          ].map((feature, index) => (
+            <div key={index} className="bg-gray-900 bg-opacity-50 p-6 rounded-xl backdrop-blur-sm border border-gray-800">
+              <div className="mb-4">{feature.icon}</div>
+              <h3 className="text-xl font-bold mb-2">{feature.title}</h3>
+              <p className="text-gray-300">{feature.description}</p>
+            </div>
+          ))}
+        </section>
+<h2 className= 'text-center mb-20 text-5xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-pink-500 to-orange-500 bg-clip-text text-transparent' >With TreatMap, you can:</h2>  
+        <section className="grid md:grid-cols-3 gap-8 mb-20">
+          
+          {[
+            {
+              icon: <FaGamepad className="text-4xl text-pink-500" />,
+
+              description: "Add your home to the map and select what kind of treat you’re giving."
+            },
+            {
+              icon: <FaCandyCane className="text-4xl text-orange-400" />,
+         
+              description: "Check nearby candy stops and plan your trick-or-treat night."
+            },
+            {
+              icon: <FaGhost className="text-4xl text-purple-400" />,
+            
+              description: "Visit and verify locations to keep the map fun and accurate for everyone!"
+            },
+           
           ].map((feature, index) => (
             <div key={index} className="bg-gray-900 bg-opacity-50 p-6 rounded-xl backdrop-blur-sm border border-gray-800">
               <div className="mb-4">{feature.icon}</div>
@@ -86,7 +114,7 @@ Welcome to TreatMap
         </section>
 
         <section className="text-center">
-          <h2 className="text-3xl font-bold mb-8">Available Exclusively on the App Store</h2>
+          <h2 className="text-3xl font-bold mb-8">✨ Join the Halloween fun and make your neighborhood the sweetest place to be. ✨</h2>
           <div className="flex justify-center">
             <a 
               href="https://apps.apple.com/" 
