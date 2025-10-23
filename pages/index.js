@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import { FaApple, FaGamepad, FaCandyCane, FaGhost, FaDownload } from 'react-icons/fa';
+import { FaApple, FaGamepad, FaCandyCane, FaGhost, FaDownload, FaPen } from 'react-icons/fa';
+import { FaMapLocation, FaMapLocationDot } from 'react-icons/fa6';
 
 export default function Home() {
   return (
@@ -57,17 +58,17 @@ Welcome to TreatMap
           
           {[
             {
-              icon: <FaGamepad className="text-4xl text-pink-500" />,
+              icon: <FaPen className="text-4xl text-pink-500" />,
               title: "Mark your home",
               description: "as a candy stop — full-size bars, mini treats, chips, or other goodies."
             },
             {
-              icon: <FaCandyCane className="text-4xl text-orange-400" />,
+              icon: <FaMapLocationDot className="text-4xl text-orange-400" />,
               title: "Explore the map",
               description: "find houses near you that are giving out the best treats"
             },
             {
-              icon: <FaGhost className="text-4xl text-purple-400" />,
+              icon: <FaCandyCane className="text-4xl text-purple-400" />,
               title: "Halloween routes",
               description: "your experience so other trick-or-treaters know what to expect."
             },
@@ -84,8 +85,9 @@ Welcome to TreatMap
             </div>
           ))}
         </section>
-<h2 className= 'text-center mb-20 text-5xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-pink-500 to-orange-500 bg-clip-text text-transparent' >With TreatMap, you can:</h2>  
-        <section className="grid md:grid-cols-3 gap-8 mb-20">
+<h2 className= 'text-center mb-20 text-5xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-pink-500 to-orange-500 bg-clip-text text-transparent' >With TreatMap, you can:</h2> 
+<section className="grid md:grid-cols-3 gap-8 mb-20"> 
+        <section className="grid gap-8 mb-20">
           
           {[
             {
@@ -112,6 +114,7 @@ Welcome to TreatMap
             </div>
           ))}
         </section>
+        </section>
 
         <section className="text-center">
           <h2 className="text-3xl font-bold mb-8">✨ Join the Halloween fun and make your neighborhood the sweetest place to be. ✨</h2>
@@ -136,7 +139,7 @@ Welcome to TreatMap
 
       <footer className="bg-black bg-opacity-50 py-6 mt-20">
         <div className="container mx-auto px-6 text-center text-gray-400">
-          <p>© {new Date().getFullYear()} Spooky Candy Quest. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} TreatMap. All rights reserved.</p>
         </div>
       </footer>
     </div>
