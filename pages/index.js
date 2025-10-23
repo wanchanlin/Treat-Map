@@ -86,7 +86,14 @@ Welcome to TreatMap
           ))}
         </section>
 <h2 className= 'text-center mb-20 text-5xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-pink-500 to-orange-500 bg-clip-text text-transparent' >With TreatMap, you can:</h2> 
-<section className="grid md:grid-cols-3 gap-8 mb-20"> 
+<section className="mx-auto max-w-4xl flex items-stretch gap-8 mb-20">
+          
+      
+          {[
+
+  <img src="assets/images/screen.png" alt="App Screenshot 1" className=" rounded-xl shadow-lg w-64" />  
+
+          ]} 
         <section className="grid gap-8 mb-20">
           
           {[
