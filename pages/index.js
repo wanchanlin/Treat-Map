@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import { FaApple, FaGamepad, FaCandyCane, FaGhost, FaDownload, FaPen } from 'react-icons/fa';
-import { FaMapLocation, FaMapLocationDot } from 'react-icons/fa6';
+import { FaApple, FalocationDot, FaCandyCane, FaGhost, FaDownload, FaPen } from 'react-icons/fa';
+import { FaMapLocation, FaMapLocationDot ,Falocation, FaLocationDot} from 'react-icons/fa6';
 
 export default function Home() {
   return (
@@ -98,7 +98,7 @@ Welcome to TreatMap
           
           {[
             {
-              icon: <FaGamepad className="text-4xl text-pink-500" />,
+              icon: <FaLocationDot className="text-4xl text-pink-500" />,
 
               description: "Add your home to the map and select what kind of treat you’re giving."
             },
