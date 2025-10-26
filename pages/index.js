@@ -8,8 +8,8 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-purple-900 to-black text-white">
       <Head>
-        <title>Spooky Candy</title>
-        <meta name="description" content="Embark on a spooky candy collecting adventure this Halloween! Download now on the App Store." />
+        <title>Treat Map</title>
+        <meta name="description" content="Embark on a treat Map adventure this Halloween! Download now on the App Store." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
