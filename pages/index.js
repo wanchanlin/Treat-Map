@@ -1,4 +1,6 @@
 import Head from 'next/head';
+import Footer from '../components/footer';
+
 import Image from 'next/image';
 // Corrected and cleaned up icon imports. Using 'fa6' for its specific icons.
 import { FaApple, FaCandyCane, FaGhost, FaDownload, FaPen } from 'react-icons/fa';
@@ -158,11 +160,7 @@ export default function Home() {
         </section>
       </main>
 
-      <footer className="bg-black bg-opacity-50 py-6 mt-20">
-        <div className="container mx-auto px-6 text-center text-gray-400">
-          <p>© {new Date().getFullYear()} TreatMap. All rights reserved.</p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
