@@ -1,4 +1,4 @@
-# Halloween Candy App
+# Treat Map
 
 This is a Next.js application that showcases a collection of Halloween candies. The app displays a list of candies with their names, images, and descriptions.
 
