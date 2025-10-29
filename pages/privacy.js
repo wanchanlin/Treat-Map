@@ -1,3 +1,4 @@
+import Nav from '../components/nav';
 import Footer from '../components/footer';
 import Head from 'next/head';
 import { FaApple, FaCandyCane, FaCheckSquare, FaMapMarkerAlt, FaHeart, FaUserLock } from 'react-icons/fa';
@@ -13,26 +14,7 @@ export default function Privacy() {
       </Head>
 
       {/* --- Header --- */}
-      <header className="container mx-auto px-6 py-8">
-        <div className="flex justify-between items-center">
-          <div className="flex items-center space-x-2">
-            <FaCandyCane className="text-pink-500 text-3xl" aria-hidden="true" />
-            <span className="text-2xl font-bold bg-gradient-to-r from-pink-500 to-orange-500 bg-clip-text text-transparent">
-              TreatMap
-            </span>
-          </div>
-          <a
-            href="https://apps.apple.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-white text-black px-6 py-2 rounded-full font-semibold flex items-center space-x-2 hover:bg-gray-200 transition-colors shadow-lg"
-            aria-label="Download TreatMap on the App Store"
-          >
-            <FaApple className="text-xl" aria-hidden="true" />
-            <span>Download on the App Store</span>
-          </a>
-        </div>
-      </header>
+      <Nav />
       {/* --- End Header --- */}
 
       <main className="container mx-auto px-6 py-12">
