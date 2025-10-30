@@ -7,11 +7,7 @@ export default function Privacy() {
   return (
     // Min-height to ensure footer is at the bottom, themed background
     <div className="min-h-screen bg-gradient-to-b from-purple-900 to-black text-white">
-      <Head>
-        <title>Privacy Policy - TreatMap</title>
-        <meta name="description" content="TreatMap Privacy Policy" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+       <Head/>
 
       {/* --- Header --- */}
       <Nav />

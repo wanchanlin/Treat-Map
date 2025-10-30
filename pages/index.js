@@ -1,4 +1,5 @@
-import Nav from '../components/nav';
+import Nav from '../components/nav';  
+
 import Head from 'next/head';
 import Footer from '../components/footer';
 
@@ -10,12 +11,8 @@ import { FaMapLocationDot, FaLocationDot, FaSquareCheck } from 'react-icons/fa6'
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-purple-900 to-black text-white">
-      <Head>
-        <title>Treat Map</title>
-        <meta name="description" content="Embark on a treat Map adventure this Halloween! Download now on the App Store." />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
+      
+      <Head/>
       <Nav />
 
       <main className="container mx-auto px-6 py-12">
