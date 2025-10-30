@@ -5,7 +5,7 @@ export default function Nav() {
      <header className="container mx-auto px-6 py-8">
             <div className="flex justify-between items-center">
               <div className="flex items-center space-x-2">
-                <img src="/assets/images/logo.svg" alt="TreatMap Logo" className="h-12 " />
+                <img src="/assets/images/Logo.svg" alt="TreatMap Logo" className="h-12 " />
                 
               </div>
               <a
