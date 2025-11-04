@@ -1,5 +1,4 @@
-import Nav from '../components/nav';  
-
+import Nav from '../components/nav';
 import Head from 'next/head';
 import Footer from '../components/footer';
 
@@ -11,8 +10,10 @@ import { FaMapLocationDot, FaLocationDot, FaSquareCheck } from 'react-icons/fa6'
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-purple-900 to-black text-white">
-      
       <Head/>
+       
+ 
+
       <Nav />
 
       <main className="container mx-auto px-6 py-12">
